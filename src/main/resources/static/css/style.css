@@ -1,0 +1,70 @@
+* {
+	box-sizing: border-box;	
+}
+
+body {
+	margin: auto;
+	margin-top: 1em;
+	width: 75%;
+	text-align: left;
+	font-size: x-large;
+}
+
+article {
+	display: flex;
+}
+
+p {
+	display: inline-block;
+}
+
+span  {
+	border: solid;
+	padding: 8px 2em;
+	margin-left: 1em;
+/* 	
+	width: 200px;
+ */
+}
+
+form {
+	border: solid;
+	padding: 1em;
+	display: block;
+	flex: 25%;
+	margin: 12px;
+	line-height: 1.5em;
+	text-align: center;
+}
+
+#results div {
+	display: flex;
+}
+
+div#fake_textarea {
+	padding: 8px;
+	overflow-y: auto;
+	height:200px;
+	font-size: medium;
+	width: 100%;
+	border: solid;
+	line-height: 0px;
+}
+
+button {
+	font-size: large;
+	background-color: white;
+	border: solid 2px;
+	margin-top: 16px;
+	padding: 4px 8px;
+}
+
+p.earned {
+	display: block;
+	color: green;
+}
+p.lost {
+	display: block;
+	color: red;
+}
+
